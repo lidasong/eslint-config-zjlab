@@ -1,18 +1,18 @@
 {
-  "name": "eslint-config-zjlab",
+  "name": "eslint-plugin-zjlab",
   "version": "1.0.0",
-  "description": "eslint config for zjlab based front-end projects",
+  "description": "eslint plugin for zjlab based front-end projects",
   "main": "index.js",
   "scripts": {
     "test": "node tests/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zjlab/eslint-config-zjlab/"
+    "url": "https://github.com/lidasong/eslint-plugin-zjlab"
   },
   "keywords": [
     "eslint",
-    "config",
+    "plugin",
     "zjlab"
   ],
   "author": "zjlab lidasong",
