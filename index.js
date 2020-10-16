@@ -9,5 +9,5 @@ module.exports = {
     parser: "babel-eslint",
     ecmaVersion: 2020,
   },
-  extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
+  extends: ["eslint:recommended"]
 };

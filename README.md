@@ -30,7 +30,7 @@ In order to release a new version, please follow these steps:
 ## Install
 
 ```
-$ yarn add eslint-plugin-zjlab -D
+$ yarn add eslint-config-zjlab -D
 ```
 
 ## Usage
@@ -40,14 +40,14 @@ for web project:
 
 ```json
 {
-  "extends": ["plugin:zjlab/all"]
+  "extends": ["zjlab", "zjlab/all"]
 }
 ```
 for mobile project:
 
 ```json
 {
-  "extends": ["plugin:zjlab/mobile"]
+  "extends": ["zjlab", "zjlab/mobile"]
 }
 ```
 
